@@ -21,7 +21,7 @@ const Form = (props) => {
           <input type="text" placeholder="El. paštas" />
           <input type="text" placeholder="Tel. numeris" />
           <input type="text" placeholder="Augintinio veislė" />
-          <input type="text" placeholder="Augitninio svoris" />
+          <input type="text" placeholder="Augintinio svoris" />
           <input type="text" placeholder="Augintinio amžius" />
           <input type="text" placeholder="Augintinio kailio spalva" />
           <input type="text" placeholder="Ypatingi požymiai" />
