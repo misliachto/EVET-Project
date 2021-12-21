@@ -1,0 +1,102 @@
+.information-content__container {
+  display: flex;
+  flex-direction: column;
+}
+.information-content-top__container {
+  background-color: #4d6bfc;
+  color: white;
+  padding: 5rem 5rem;
+  gap: 3rem;
+}
+.information-content-top__container {
+  display: flex;
+}
+.information-content-images__container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  text-align: center;
+}
+.information-content-image {
+  width: 11rem;
+}
+.information-bottom-main__container {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  padding: 5rem 5rem;
+}
+.information-bottom-question__container {
+  flex: 1;
+}
+.information-bottom-list__container {
+  flex: 1;
+}
+.information-bottom-list__container p:last-child {
+  font-weight: bold;
+}
+.bottom-underline {
+  background-color: #4d6bfc;
+  height: 18px;
+}
+
+@media all and (max-width: 1311px) {
+  .information-content-top-text h1 {
+    font-size: 1.7rem;
+  }
+  .information-content-top-text p {
+    font-size: 1rem;
+  }
+  .information-content-top__container {
+    align-items: center;
+  }
+  .information-content-images__container {
+    gap: 1rem;
+  }
+  .information-content-images__container img {
+    width: 104px;
+    height: 104px;
+  }
+}
+/*Tablet screen*/
+@media all and (max-width: 1008px) {
+  .information-content-top__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .information-content-top-text {
+    width: 70%;
+  }
+  .information-content-images__container {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .information-content-images__container img {
+    width: 152px;
+    height: 152px;
+  }
+  .information-bottom-main__container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+/*Mobile screen*/
+@media all and (max-width: 714px) {
+  .information-content-top__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+  .information-content-images__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .information-bottom-main__container {
+    padding: 1rem 2rem;
+    text-align: justify;
+  }
+}
